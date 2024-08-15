@@ -15,25 +15,25 @@ Você precisa implementar três classes principais: Livro, Usuario, e Biblioteca
 - autor: String
 - disponível: String
 
-+ exibirDetalhes()
++ +exibirDetalhes()
 
 ## Classe Usuario
 - nome: String
 - livrosEmprestados: String
 
-+ emprestarLivro()
-+ devolverLivro()
++ +emprestarLivro()
++ +devolverLivro()
 
 ## Classe Biblioteca
 - nome: String
 - livros: arrayOf
 
-+ adicionarLivro(livro: Livro)
-+ exibirLivrosDisponiveis()
++ +adicionarLivro(livro: Livro)
++ +exibirLivrosDisponiveis()
 
 ## Implementar o fluxo principal:
-• Crie instâncias das classes Livro, Usuario e Biblioteca.
-• Adicione alguns livros à biblioteca.
-• Empreste e devolva alguns livros usando um ou mais usuários.
-• Exiba a lista de livros disponíveis antes e depois dos empréstimos.
+- Crie instâncias das classes Livro, Usuario e Biblioteca.
+- Adicione alguns livros à biblioteca.
+- Empreste e devolva alguns livros usando um ou mais usuários.
+- Exiba a lista de livros disponíveis antes e depois dos empréstimos.
 
